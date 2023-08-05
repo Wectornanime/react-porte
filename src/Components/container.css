@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+    padding: 10px 20px;
+}
+
+.container h2 {
+    font-family: var(--primary-font);
+    color: var(--title-color);
+}
+
+.container p {
+    font-family: var(--second-font);
+    color: var(--third-text-color);
+}
+
+.container .container-badges {
+    margin-top: 20px;
+}
+
+.container-badges ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

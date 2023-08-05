@@ -1,0 +1,62 @@
+.about > .left {
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about > .left > .image .image_wrapper {
+    margin: 0 auto;
+    height: 140px;
+    width: 140px;
+
+    position: relative;
+}
+
+.about > .left > .image img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 100%;
+    object-fit: cover;
+
+    color: var(--title-color);
+}
+
+.about > .left > .details {
+    padding: 0 15px;
+}
+
+.about > .left > .details h2 {
+    color: var(--title-color);
+    font-family: var(--primary-font);
+}
+
+.about > .left > .details p {
+    color: var(--third-text-color);
+    font-family: var(--primary-font);
+}
+
+.about > .left > .details ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+.about > .right {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.about > .right h2 {
+    font-family: var(--primary-font);
+    color: var(--title-color);
+}
+
+.about > .right p {
+    font-family: var(--second-font);
+    color: var(--third-text-color);
+}

@@ -1,0 +1,27 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+    padding: 10px 20px;
+}
+
+.education h2 {
+    font-family: var(--primary-font);
+    color: var(--title-color);
+}
+
+.education p {
+    font-family: var(--second-font);
+    color: var(--third-text-color);
+}
+
+.education .education-badges {
+    margin-top: 20px;
+}
+
+.education-badges ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
